@@ -1,0 +1,8 @@
+{
+  "name": "Copy of ONE TEAM ONE VOICE ",
+  "description": "An AI-powered employee engagement portal for factories to report issues, share suggestions, and foster a culture of continuous improvement.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
