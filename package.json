@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "travel-itinerary-planner",
-=======
-  "name": "copy-of-one-team-one-voice",
->>>>>>> 88260e65f84fd5b0bc475028cd30d2c3bc2c24af
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,19 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "react-dom": "^19.1.0",
     "@google/genai": "^1.0.1",
-    "react": "^19.1.0"
-=======
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
-    "@google/genai": "^1.0.1",
-    "xlsx": "0.18.5",
-    "jspdf": "2.5.1",
-    "jspdf-autotable": "3.8.2"
->>>>>>> 88260e65f84fd5b0bc475028cd30d2c3bc2c24af
+    "xlsx": "0.18.5"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
