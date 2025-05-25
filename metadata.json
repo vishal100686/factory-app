@@ -1,0 +1,6 @@
+{
+  "name": "Travel Itinerary Planner",
+  "description": "A comprehensive travel itinerary planner that generates detailed trip plans using AI, covering routes, accommodation, daily activities, food, weather, emergency info, and cost estimates.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
