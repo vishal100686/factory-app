@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useCallback, useEffect } from 'react';
 import { ItineraryFormData, Itinerary, UserPreferences, TravelMode, InitialItineraryFormData } from './types';
 import ItineraryForm from './components/ItineraryForm';
@@ -192,6 +193,35 @@ const App: React.FC = () => {
          <p className="mt-1 text-xs">Note: Information like train/flight schedules and prices are illustrative. Always verify with official sources.</p>
       </footer>
     </div>
+=======
+
+import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
+import AdminPage from './pages/AdminPage';
+import ReportsPage from './pages/ReportsPage'; // New Import
+import { Toaster } from './components/ui/Toaster'; // Simple toast component
+
+const App: React.FC = () => {
+  return (
+    <HashRouter>
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-grow container mx-auto p-4 sm:p-6 lg:p-8">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/admin" element={<AdminPage />} />
+            <Route path="/admin/reports" element={<ReportsPage />} /> {/* New Route */}
+          </Routes>
+        </main>
+        <footer className="bg-brand-dark text-white text-center p-4">
+          © ${new Date().getFullYear()} FactoryPulse. All rights reserved.
+        </footer>
+        <Toaster />
+      </div>
+    </HashRouter>
+>>>>>>> 88260e65f84fd5b0bc475028cd30d2c3bc2c24af
   );
 };
 

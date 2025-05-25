@@ -1,6 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "Travel Itinerary Planner",
   "description": "A comprehensive travel itinerary planner that generates detailed trip plans using AI, covering routes, accommodation, daily activities, food, weather, emergency info, and cost estimates.",
   "requestFramePermissions": [],
+=======
+  "name": "Copy of ONE TEAM ONE VOICE ",
+  "description": "An AI-powered employee engagement portal for factories to report issues, share suggestions, and foster a culture of continuous improvement.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+>>>>>>> 88260e65f84fd5b0bc475028cd30d2c3bc2c24af
   "prompt": ""
 }
